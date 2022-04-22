@@ -763,6 +763,27 @@ padding-right: 5%;
 }
 
 
+/* Página Términos y condiciones */
+.cabecera-terminos{
+    background-image: url(./img/terminos.jpg);
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-size: cover;
+    background-position: bottom;
+    width: 97%;
+    font-weight: 900;
+    color: white;
+    font-size: 90px;
+    text-align: right;
+    padding-top: 12%;
+    padding-right: 5%;
+    }
+    
+    .cabecera-terminos h1{
+        font-weight: 900;
+        font-size: 70px;
+    }
 
 
 
