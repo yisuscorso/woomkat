@@ -23,7 +23,7 @@ body{
 .logo{
     width: 100%; /* asi evitamos deformación de logo */
     margin: 1.5rem;
-}
+} 
 
 header{
     display: flex;
@@ -165,9 +165,10 @@ nav ul li a:hover{
 /* Seccion 2 */
 
 .galeriahome{
-    /* min-height: 1500px;*/
-    width: 100%;
+    /* min-height: 1500px */
+    /* width: 100%;
     display: grid;
+     */
 }
 
 .img1home{
