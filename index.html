@@ -1,85 +1,85 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <!-- Viewport -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- favicon -->
-    <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon" />
     <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
-    rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
-    crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
     <!-- link a css -->
-    <link rel="StyleSheet" href="./style.css" type="text/css" media="screen">
+    <link rel="StyleSheet" href="./style.css" type="text/css" media="screen" />
     <!-- Script font awesome -->
     <script src="https://kit.fontawesome.com/26cb1ba5f0.js" crossorigin="anonymous"></script>
     <!-- fuentes de google -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,500&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,500&family=Roboto:wght@300&display=swap"
+        rel="stylesheet" />
     <!-- AOS -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">  
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <title>woomkat</title>
 </head>
 
 <body>
+    <!-- NAVBAR -->
     <header>
-        <!-- <div class="logo-container">
-            <a href="./index.html"><img src="./img/Logo_woomkat_transparente.png" alt="Logo Woomkat" class="logo"></a>
+        <div class="container">
+            <header class="d-flex flex-wrap justify-content-center py-3 mb-4">
+                <a href="./index.html"
+                    class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none"><img
+                        src="./img/Logo_woomkat_transparente.png" alt="Logo Woomkat" class="logo" width="100%"
+                        height="30" />
+                    <!-- <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg> -->
+                    <!-- <span class="fs-4"></span> -->
+                </a>
+
+                <ul class="nav nav-pills">
+                    <li class="nav-item">
+                        <a href="./index.html" class="nav-link active" aria-current="page">home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./pages/servicios.html" class="nav-link">servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./pages/proyectos.html" class="nav-link">proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./pages/conocenos.html" class="nav-link">conócenos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./pages/contacto.html" class="nav-link">contacto</a>
+                    </li>
+                </ul>
+            </header>
         </div>
-        <nav>
-            <ul>
-                <li><a href="/index.html" class="linkActive">home</a></li>
-                <li><a href="./pages/servicios.html">servicios</a></li>
-                <li><a href="./pages/proyectos.html">proyectos</a></li>
-                <li><a href="./pages/conocenos.html">conócenos</a></li>
-                <li><a href="./pages/contacto.html">contacto</a></li>    
-            </ul>
-        </nav> -->
-
-        <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-black ">
-            <a href="./index.html"><img src="./img/Logo_woomkat_transparente.png" 
-                alt="Logo Woomkat" class="logo" width="30" height="30"></a>
-                
-                <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav"
-                aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler">  
-                <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbarNav">
-                        <li class="nav-item active"><a href="/index.html" class="linkActive">home</a></li>
-                        <li class="nav-item disabled"><a href="./pages/servicios.html">servicios</a></li>
-                        <li class="nav-item disabled"><a href="./pages/proyectos.html">proyectos</a></li>
-                        <li class="nav-item disabled"><a href="./pages/conocenos.html">conócenos</a></li>
-                        <li class="nav-item disabled"><a href="./pages/contacto.html">contacto</a></li>
-                    </ul>
-                </div>
-        </nav>
     </header>
 
-<main>
-<!-- Seccion 1 -->
-        <section>
-            <div class="hero">
-                <h1>Somos<br> neoExploradores<br> digitales</h1>
-                <h2>Nos apasiona descubrir y crear<br> productos nunca vistos</h2>
-                <!-- <a href="#">descúbrelo</a> -->
-                <button class="glow-on-hover" type="button">descúbrelo!</button>
+    <main>
+        <!-- SECCIÓN 1 - HERO -->
+        <div class="masthead">
+            <div class="container px-4 px-lg-5 h-100">
+                <div class="row gx-4 gx-lg-5 h-100 align-items-left justify-content-center text-left">
+                    <div class="col-lg-8 align-self-end">
+                        <h1 class="text-white font-weight-bold">Somos neoExploradores digitales</h1>
+                        <hr class="divider">
+                    </div>
+                    <div class="col-lg-8 align-self-baseline">
+                        <p class="text-white mb-5">Nos apasiona descubrir y crear
+                            productos nunca vistos</p>
+                        <a class="btn btn-primary btn-xl" href="./pages/proyectos.html">descúbrenos</a>
+                    </div>
+                </div>
             </div>
-        </section>
+        </div>
 
-<!-- Seccion 2 -->
-
-        <!-- <section class="galeriahome">
-            <div class="img img1home">VR</div>
-            <div class="img img2home">AR</div>
-            <div class="img img3home">MR</div>
-            <div class="img img4home">IW</div>
-        </section>  -->
-
+        <!-- SECCION 2 - MAIN CONTENT -->
+        <br><br>
         <div class="container">
             <div class="row">
                 <div class="img img1home col-md-6 col-lg-3">VR</div>
@@ -89,102 +89,162 @@
             </div>
         </div>
 
-        
 
-
-
-
-<!-- Seccion 3 -->
-<section class="newsletter" id="sec3" data-aos="zoom-out-right">
-    <p>¿Tienes un evento y quieres aplicar nuevas tecnologías 
-        o desarrollar algo impactante?.<br> ¡Te podemos ayudar!</p>
-    <!-- <a href="#">contacta con nosotros</a> -->
-    <button class="glow-on-hover" type="button">contactar</button>    
-    
-</section>
-
-</main>
-
-
-
-<!-- Footer -->
-
-<footer>
-    <hr>
-    <br>
-    <div class="contenedorFooter" id="footer1">
-        <div class="contenedorFooter1">
-            <!-- Tagline -->
-            <a href="./index.html"><img src="./img/Logo_woomkat_transparente.png" alt="logo woomkat" class="logo-footer"></a>
-            <p class="tagline">Somos exploradores. Formamos un equipo multidisciplinar, centrado 
-                en la creación de proyectos VR, AR y MR</p>
-            <!-- Redes Sociales -->
-            <div class="social">
-                <i class="fa-brands fa-facebook"></i>
-                <i class="fa-brands fa-twitter"></i>
-                <i class="fa-brands fa-instagram"></i>
+        <!-- SECCIÓN 3 -->
+        <br>
+        <div class="container px-4 py-5" id="hanging-icons">
+            <h2 class="pb-2 border-bottom">Nos configuramos para cada proyecto</h2>
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+                <div class="col d-flex align-items-start">
+                    <div class="icon-square text-light flex-shrink-0 me-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" fill="currentColor"
+                            class="bi bi-app-indicator" viewBox="0 0 16 16">
+                            <path
+                                d="M5.5 2A3.5 3.5 0 0 0 2 5.5v5A3.5 3.5 0 0 0 5.5 14h5a3.5 3.5 0 0 0 3.5-3.5V8a.5.5 0 0 1 1 0v2.5a4.5 4.5 0 0 1-4.5 4.5h-5A4.5 4.5 0 0 1 1 10.5v-5A4.5 4.5 0 0 1 5.5 1H8a.5.5 0 0 1 0 1H5.5z" />
+                            <path d="M16 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                        </svg>
+                    </div>
+                    <div>
+                        <h2>Equipo multidisciplinar</h2>
+                        <p>Productores, desaroladores, ingenieros e imaginerees, el equipo perfecto para soñar y hacerte
+                            soñar.</p>
+                        <a href="./pages/conocenos.html" class="btn btn-primary">
+                            conócenos
+                        </a>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                    <div class="icon-square text-light flex-shrink-0 me-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" fill="currentColor"
+                            class="bi bi-asterisk" viewBox="0 0 16 16">
+                            <path
+                                d="M8 0a1 1 0 0 1 1 1v5.268l4.562-2.634a1 1 0 1 1 1 1.732L10 8l4.562 2.634a1 1 0 1 1-1 1.732L9 9.732V15a1 1 0 1 1-2 0V9.732l-4.562 2.634a1 1 0 1 1-1-1.732L6 8 1.438 5.366a1 1 0 0 1 1-1.732L7 6.268V1a1 1 0 0 1 1-1z" />
+                        </svg>
+                    </div>
+                    <div>
+                        <h2>Laboratorio de desarrollo</h2>
+                        <p>Desarrollar un proyecto con la última tecnología supone estar preparados para hacer muchas
+                            pruebas. Con nuestro laboratorio de desarrollo somos capaces de hacer frente a las
+                            peticiones más complejas</p>
+                        <a href="./pages/conocenos.html" class="btn btn-primary">
+                            conócenos
+                        </a>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                    <div class="icon-square text-light flex-shrink-0 me-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" fill="currentColor"
+                            class="bi bi-box" viewBox="0 0 16 16">
+                            <path
+                                d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5 8 5.961 14.154 3.5 8.186 1.113zM15 4.239l-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923l6.5 2.6zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464L7.443.184z" />
+                        </svg>
+                    </div>
+                    <div>
+                        <h2>Spatial Web</h2>
+                        <p>Etamos listos para el próximo salto evolutivo de la computación. Somos Spatial Web ready.</p>
+                        <a href="./pages/conocenos.html" class="btn btn-primary">
+                            conócenos
+                        </a>
+                    </div>
+                </div>
             </div>
-            
-            <div class="firma">
-                <p>2022 woomkat®</p><br>
-            </div> 
         </div>
 
-        <div class="contenedorFooter2" id="footer2">
-            <div class="ContenedorBlanco">
-                </div> 
-            </div>
+        <!-- Seccion 4 -->
+        <section class="newsletter" id="sec3" data-aos="zoom-out-right">
+            <p>¿Tienes un evento y quieres aplicar nuevas tecnologías
+                o desarrollar algo impactante?.<br> ¡Te podemos ayudar!</p>
+            <!-- <a href="#">contacta con nosotros</a> -->
+            <button class="btn-primary" type="button">contactar</button>
 
-            <div class="contenedorFooter2" id="footer2">
-                <div class="ContenedorBlanco">
-                    </div> 
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <footer class="row row-cols-5 py-5 my-5 border-top">
+                <div class="col">
+                    <a href="./index.html"><img src="./img/Logo_woomkat_transparente.png" alt="logo woomkat"
+                            class="logo-footer"></a>
+                    <p class="tagline">Somos exploradores. Formamos un equipo multidisciplinar, centrado
+                        en la creación de proyectos VR, AR y MR</p>
+                    <!-- Redes Sociales -->
+                    <div class="social">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+
+                    <div class="firma">
+                        <p>2022 woomkat®</p><br>
+                    </div>
                 </div>
 
-            <div class="contenedorFooter3" id="footer3">
-                <div class="FooterMenu1" alt="Servicios"></n>
-                    <p>Servicios</p>
-                    <ul>       
-                        <li><a href="./pages/servicios.html">Realidad Virtual</a></li>        
-                        <li><a href="./pages/servicios.html">Realidad Aumentada</a></li>    
-                        <li><a href="./pages/servicios.html">Realidad Mixta</a></li>
-                        <li><a href="./pages/servicios.html">Web inmersiva / 3D</a></li>  
+                <div class="col2">
+
+                </div>
+
+                <div class="col2">
+                    <h5></h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"></a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"></a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"></a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"></a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"></a></li>
                     </ul>
                 </div>
-            </div>
 
-            <div class="contenedorFooter4" id="footer4">
-                <div class="FooterMenu2" alt="Conócenos"></>
-                    <p>Conócenos</p>
-                    <ul>       
-                        <li><a href="./pages/contacto.html">Contacto</a></li>     
-                        <li><a href="#">FAQs</a></li>
-                        <li><a href="./pages/terminos.html">Terminos y condiciones</a></li>  
-                        <li><a href="./pages/privacidad.html">Política de privacidad</a></li>      
+                <div class="col2">
+                    <h5>Servicios</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="./pages/servicios.html"
+                                class="nav-link p-0 text-muted">Realidad Virtual</a></li>
+                        <li class="nav-item mb-2"><a href="./pages/servicios.html"
+                                class="nav-link p-0 text-muted">Realidad Aumentada</a></li>
+                        <li class="nav-item mb-2"><a href="./pages/servicios.html"
+                                class="nav-link p-0 text-muted">Realidad Mixta</a></li>
+                        <li class="nav-item mb-2"><a href="./pages/servicios.html" class="nav-link p-0 text-muted">Web
+                                inmersiva / 3D</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"></a></li>
                     </ul>
                 </div>
-            </div> 
-            
-        
-    </div>
+
+                <div class="col2">
+                    <h5>Conócenos</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="./pages/contacto.html"
+                                class="nav-link p-0 text-muted">Contacto</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                        <li class="nav-item mb-2"><a href="./pages/terminos.html"
+                                class="nav-link p-0 text-muted">Términos y condiciones</a></li>
+                        <li class="nav-item mb-2"><a href="./pages/privacidad.html"
+                                class="nav-link p-0 text-muted">Política de privacidad</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"></a></li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+
+    </footer>
 
 
 
 
 
-</footer>
+    <!-- Separate (Bootstrap) -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
 
-<!-- Separate (Bootstrap) -->
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" 
-integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" 
-crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" 
-integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" 
-crossorigin="anonymous"></script>
-
-<!-- AOS script -->
+    <!-- AOS script -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-    AOS.init();
+        AOS.init();
     </script>
 </body>
+
 </html>
