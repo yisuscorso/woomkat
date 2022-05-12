@@ -94,7 +94,13 @@ body{
         p{
             font-size: 22px;
             text-align: right;
+            color: rgb(137, 137, 137);
         }
+}
+
+.btn-hero{
+    display: flex;
+    float: right;
 }
 
 .img{
@@ -171,10 +177,10 @@ body{
 
 /* SECCIÓN 3 - DETALLE */
 
-.container h2{
+.containder-detalle h2{
     color: white;
     p{
-        color: rgb(204, 204, 204);
+        color: rgb(255, 255, 255);
     }
 }
 
@@ -230,9 +236,18 @@ body{
         }
 }
 
-.container_espacios img{
-    border-radius: 20px;
+.container_espacios{
+    h1{
+        color: white;
+    }
+    p{
+        color: lightgray;
+    }
+    img{
+        border-radius: 20px;
+    }
 }
+
 
 .mb-4 {
     margin-bottom: 1.5rem!important;
@@ -272,6 +287,7 @@ body{
     padding: 2% 8% 0% 8%;
     p{
         padding-top: 20px;
+        color: lightgrey;
     }
 }
 
@@ -382,6 +398,9 @@ body{
             padding-bottom: 30px;
             width: auto;
         }
+        p{
+            color: lightgrey;
+        }
 }
 
 
@@ -454,6 +473,11 @@ body{
 .h6{
     padding-left: 20px;
 }
+
+.colorb{
+    color: lightgrey;
+}
+
 
 .form-group{
     padding-top: 20px;
