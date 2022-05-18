@@ -487,6 +487,71 @@ body{
     padding-top: 20px;
 }
 
+/*******************************************  TERMINOS Y CONDICIONES */
+.cabecera-terminos{
+    background-image: url(./img/terminos.jpg);
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-size: cover;
+    background-position: bottom;
+    width: 97%;
+    font-weight: 900;
+    color: white;
+    font-size: 90px;
+    text-align: right;
+    padding-top: 12%;
+    padding-right: 5%;
+    h1{
+        font-weight: 900;
+        font-size: 70px;
+    }
+}
+
+.texto-terminos{
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 5rem;
+    h2{
+        margin-left: 10px;
+        color: white;
+    }
+    h3{
+        margin-left: 10px;
+        color: white;
+    }
+    h4{
+        
+        color: whitesmoke;
+    }
+}
+
+/*******************************************  Privacidad */
+
+.cabecera-privacidad{
+    background-image: url(./img/privacidad.jpg);
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-size: cover;
+    background-position: bottom;
+    width: 97%;
+    font-weight: 900;
+    color: white;
+    font-size: 90px;
+    text-align: right;
+    padding-top: 12%;
+    padding-right: 5%;
+    h1{
+        font-weight: 900;
+        font-size: 70px;
+    }
+}
+
+
+
+
+
 /*******************************************  FOOTER */
 
 .col img{
@@ -496,6 +561,7 @@ body{
     font-weight: 100;
     padding-bottom: 3px;
     padding-top: 10px;
+    color: rgb(159, 159, 159);
 }
 
 .social{
@@ -506,5 +572,20 @@ body{
 }
 
 .social i:hover{
-    color: aquamarine;
+    color: #00b3ff;
 }
+
+.menubajo {
+    color: rgb(152, 152, 152);
+}
+
+h5{
+    color: white;
+    padding-bottom: 5px;
+}
+
+.py-5{
+
+}
+
+
