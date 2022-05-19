@@ -542,6 +542,27 @@ body {
   font-size: 70px;
 }
 
+/*******************************************  Privacidad */
+.cabecera-faqs {
+  background-image: url(./img/faqs.jpg);
+  border-radius: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-size: cover;
+  background-position: center;
+  width: 97%;
+  font-weight: 900;
+  color: white;
+  font-size: 90px;
+  text-align: right;
+  padding-top: 12%;
+  padding-right: 5%;
+}
+.cabecera-faqs h1 {
+  font-weight: 900;
+  font-size: 70px;
+}
+
 /*******************************************  FOOTER */
 .col img {
   width: 70%;
