@@ -28,24 +28,26 @@
 
   <header>
     <div class="container">
-      <header class="d-flex flex-wrap justify-content-center py-3 mb-4">
-        <a href="./index.html"
-          class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none"><img
-            src="../img/Logo_woomkat_transparente.png" alt="Logo Woomkat" class="logo" width="100%" height="30">
-          <!-- <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg> -->
-          <!-- <span class="fs-4"></span> -->
-        </a>
-
-        <ul class="nav nav-pills">
-          <li class="nav-item"><a href="../index.html" class="nav-link" aria-current="page">home</a></li>
-          <li class="nav-item"><a href="./servicios.html" class="nav-link">servicios</a></li>
-          <li class="nav-item"><a href="./proyectos.html" class="nav-link">proyectos</a></li>
-          <li class="nav-item"><a href="./conocenos.html" class="nav-link">conócenos</a></li>
-          <li class="nav-item"><a href="./contacto.html" class="nav-link active">contacto</a></li>
-        </ul>
-      </header>
+        <nav class="navbar navbar-expand-sm navbar-dark py-4">
+            <a href="../index.html" class="navbar-brand">
+                    <img src="../img/Logo_woomkat_transparente.png" alt="Logo Woomkat" class="logo" height="30"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#toggleMobileMenu" aria-controls="toggleMobileMenu" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="toggleMobileMenu">
+                <ul class="navbar-nav ms-auto text-center">
+                    <li class="nav-item"><a href="../index.html" class="nav-link" aria-current="page">home</a></li>
+                    <li class="nav-item"><a href="./servicios.html" class="nav-link">servicios</a></li>
+                    <li class="nav-item"><a href="./proyectos.html" class="nav-link">proyectos</a></li>
+                    <li class="nav-item"><a href="./conocenos.html" class="nav-link">conócenos</a></li>
+                    <li class="nav-item"><a href="./contacto.html" class="nav-link active">contacto</a></li>
+                </ul>
+            </div>
+        </nav>
     </div>
-  </header>
+</header>
 
   <main>
 
@@ -196,73 +198,107 @@
 
   </main>
 
-  <!-- FOOTER -->
-  <footer>
-    <div class="container">
-      <footer class="row row-cols-5 py-5 my-5 border-top">
-        <div class="col">
-          <a href="./index.html"><img src="../img/Logo_woomkat_transparente.png" alt="logo woomkat"
-              class="logo-footer"></a>
-          <p class="tagline">Somos exploradores. Formamos un equipo multidisciplinar, centrado
-            en la creación de proyectos VR, AR y MR</p>
-          <!-- Redes Sociales -->
-          <div class="social">
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-instagram"></i>
-          </div>
-
-          <div class="firma">
-            <p>2022 woomkat®</p><br>
-          </div>
-        </div>
-
-        <div class="col2">
-
-        </div>
-
-        <div class="col2">
-          <h5></h5>
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"></a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"></a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"></a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"></a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"></a></li>
-          </ul>
-        </div>
-
-        <div class="col2">
-          <h5>Servicios</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="./pages/servicios.html" class="nav-link p-0 text-muted">Realidad
-                Virtual</a></li>
-            <li class="nav-item mb-2"><a href="./pages/servicios.html" class="nav-link p-0 text-muted">Realidad
-                Aumentada</a></li>
-            <li class="nav-item mb-2"><a href="./pages/servicios.html" class="nav-link p-0 text-muted">Realidad
-                Mixta</a></li>
-            <li class="nav-item mb-2"><a href="./pages/servicios.html" class="nav-link p-0 text-muted">Web
-                inmersiva / 3D</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"></a></li>
-          </ul>
-        </div>
-
-        <div class="col2">
-          <h5>Conócenos</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="./pages/contacto.html" class="nav-link p-0 text-muted">Contacto</a></li>
-            <li class="nav-item mb-2"><a href="./FAQS.html" class="nav-link p-0 text-muted">FAQs</a></li>
-            <li class="nav-item mb-2"><a href="./pages/terminos.html" class="nav-link p-0 text-muted">Términos y
-                condiciones</a></li>
-            <li class="nav-item mb-2"><a href="./pages/privacidad.html" class="nav-link p-0 text-muted">Política de
-                privacidad</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"></a></li>
-          </ul>
-        </div>
-      </footer>
-    </div>
-
-  </footer>
+          <!-- Footer -->
+          <div class="container my-5">
+            <footer class="text-center text-lg-start text-white" style="background-color: #000000">
+                <!-- Seccion redes sociales -->
+                <section class="d-flex justify-content-between p-4" style="background-color: #00b3ff">
+                    <div class="me-5">
+                        <span>Conecta con nuestras redes sociales</span>
+                    </div>
+                    <div>
+                        <a href="" class="social text-white me-4">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="" class="social text-white me-4">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </section>
+    
+                <!-- Seccion: Links  -->
+                <section class="">
+                    <div class="container text-center text-md-start mt-5">
+                        <!-- Grid row -->
+                        <div class="row mt-3">
+                            <!-- Grid column -->
+                            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                                <!-- Content -->
+                                <a href="../index.html"><img src="../img/Logo_woomkat_transparente.png" alt="logo woomkat"
+                                class="logo-footer"></a>
+                                <h6 class="text-uppercase fw-bold"></h6>
+    
+                                <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                                    style="width: 60px; background-color: #7c4dff; height: 2px" />
+                                <p class="tagline">
+                                    Somos exploradores. Formamos un equipo multidisciplinar, centrado
+                                    en la creación de proyectos VR, AR y MR
+                                </p>
+                                <p class="tagline">
+                                    woomkat® 2022
+                                </p>
+                            </div>
+                            <!-- Grid column -->
+    
+                            <!-- Grid column -->
+                            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                                <!-- Links -->
+                                <h6 class="tagline text-uppercase fw-bold">Servicios</h6>
+                                <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                                    style="width: 60px; background-color: #7c4dff; height: 2px" />
+                                <p>
+                                    <a href="./pages/servicios.html" class="text-white text-decoration-none">Realidad Virtual</a>
+                                </p>
+                                <p>
+                                    <a href="./pages/servicios.html" class="text-white text-decoration-none">Realidad Aumentada</a>
+                                </p>
+                                <p>
+                                    <a href="./pages/servicios.html" class="text-white text-decoration-none">Realidad Mixta</a>
+                                </p>
+                                <p>
+                                    <a href="./pages/servicios.html" class="text-white text-decoration-none">Web Inmersiva / 3D</a>
+                                </p>
+                            </div>
+                            <!-- Grid column -->
+    
+                            <!-- Grid column -->
+                            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                                <!-- Links -->
+                                <h6 class="tagline text-uppercase fw-bold">Conócenos</h6>
+                                <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                                    style="width: 60px; background-color: #7c4dff; height: 2px" />
+                                <p>
+                                    <a href="./pages/contacto.html" class="text-white text-decoration-none menubajo">Contacto</a>
+                                </p>
+                                <p>
+                                    <a href="./pages/FAQS.html" class="text-white text-decoration-none">FAQs</a>
+                                </p>
+                                <p>
+                                    <a href="./pages/terminos.html" class="text-white text-decoration-none">Términos y condiciones</a>
+                                </p>
+                                <p>
+                                    <a href="./pages/privacidad.html" class="text-white text-decoration-none">Política de privacidad</a>
+                                </p>
+                            </div>
+                            <!-- Grid column -->
+    
+                            <!-- Grid column -->
+                            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                                <!-- Links -->
+                                <h6 class="tagline text-uppercase fw-bold">Contacto</h6>
+                                <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                                    style="width: 60px; background-color: #7c4dff; height: 2px" />
+                                <p><i class="fas fa-home mr-3"></i> Gran Vía 1, Madrid</p>
+                                <p><i class="fas fa-envelope mr-3"></i> hola@woomkat.com</p>
+                                <p><i class="fas fa-phone mr-3"></i> + 34 234 567 88</p>
+                            </div>
+    
+                        </div>
+    
+                    </div>
+                </section>
+    
+        </footer>
 
 
   <!-- Separate (Bootstrap) -->

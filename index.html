@@ -24,61 +24,55 @@
     <!-- AOS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <meta name="description" content="Haz que tue empresa entre en el metarverso">
-	<meta name="keywords" content="METAVERSO, REALIDAD VIRTUAL, REALIDAD AUMENTADA, REALIDAD MIXTA, WEB INMERSIVA, SPATIAL WEB">
+    <meta name="keywords"
+        content="METAVERSO, REALIDAD VIRTUAL, REALIDAD AUMENTADA, REALIDAD MIXTA, WEB INMERSIVA, SPATIAL WEB">
     <title>woomkat</title>
 </head>
 
 <body>
-    <!-- NAVBAR -->
+<!-- NAVBAR -->
     <header>
         <div class="container">
-            <header class="d-flex flex-wrap justify-content-center py-3 mb-4">
-                <a href="./index.html"
-                    class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none"><img
-                        src="./img/Logo_woomkat_transparente.png" alt="Logo Woomkat" class="logo" 
-                        height="30" />
-                    <!-- <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg> -->
-                    <!-- <span class="fs-4"></span> -->
-                </a>
-
-                <ul class="nav nav-pills">
-                    <li class="nav-item">
-                        <a href="./index.html" class="nav-link active" aria-current="page">home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="./pages/servicios.html" class="nav-link">servicios</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="./pages/proyectos.html" class="nav-link">proyectos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="./pages/conocenos.html" class="nav-link">conócenos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="./pages/contacto.html" class="nav-link">contacto</a>
-                    </li>
-                </ul>
-            </header>
+            <nav class="navbar navbar-expand-sm navbar-dark py-4">
+                <a href="./index.html" class="navbar-brand">
+                        <img src="../img/Logo_woomkat_transparente.png" alt="Logo Woomkat" class="logo" height="30"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#toggleMobileMenu" aria-controls="toggleMobileMenu" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="toggleMobileMenu">
+                    <ul class="navbar-nav ms-auto text-center">
+                        <li class="nav-item"><a href="../index.html" class="nav-link active" aria-current="page">home</a></li>
+                        <li class="nav-item"><a href="./pages/servicios.html" class="nav-link">servicios</a></li>
+                        <li class="nav-item"><a href="./pages/proyectos.html" class="nav-link">proyectos</a></li>
+                        <li class="nav-item"><a href="./pages/conocenos.html" class="nav-link">conócenos</a></li>
+                        <li class="nav-item"><a href="./pages/contacto.html" class="nav-link">contacto</a></li>
+                    </ul>
+                </div>
+            </nav>
         </div>
     </header>
 
+
+
     <main>
+
         <!-- SECCIÓN 1 - HERO -->
-        <div class="masthead">
-            <div class="container px-4 px-lg-5 h-100">
-                <div class="row gx-4 gx-lg-5 h-100 align-items-left justify-content-center text-left">
-                    <div class="col-lg-8 align-self-end">
-                        <h1 class="text-white font-weight-bold">Somos neoExploradores digitales</h1>
-                        <hr class="divider">
-                    </div>
-                    <div class="col-lg-8 align-self-baseline">
-                        <p class="text-white mb-5">Nos apasiona descubrir y crear
-                            productos nunca vistos</p>
-                        <a class="btn btn-primary btn-xl btn-hero" href="./pages/proyectos.html">descúbrenos</a>
+        <div class="masthead bg-dark text-secondary px-4 py-5 text-center">
+            <div class="py-5">
+                <h1 class="display-5 fw-bold text-white">Somos<br>neoExploradores<br> digitales</h1>
+                <div class="col-lg-6 mx-auto">
+                    <p class="fs-5 mb-4">Nos apasiona decubrir y crear productos nunca vistos</p>
+                    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                        
+                            <a href="./pages/proyectos.html" class="btn btn-primary btn-lg">descúbrenos</a>
+
                     </div>
                 </div>
             </div>
         </div>
+
 
         <!-- SECCION 2 - MAIN CONTENT -->
         <br><br>
@@ -108,7 +102,7 @@
                     </div>
                     <div>
                         <h2>Equipo multidisciplinar</h2>
-                        <p>Productores, desaroladores, ingenieros e imaginerees, el equipo perfecto para soñar y hacerte
+                        <p>Profesionales multidisciplinares. Productores, desaroladores, ingenieros e imaginerees, el equipo perfecto para soñar y hacerte
                             soñar.</p>
                         <a href="./pages/conocenos.html" class="btn btn-primary">
                             conócenos
@@ -125,9 +119,8 @@
                     </div>
                     <div>
                         <h2>Laboratorio de desarrollo</h2>
-                        <p>Desarrollar un proyecto con la última tecnología supone estar preparados para hacer muchas
-                            pruebas. Con nuestro laboratorio de desarrollo somos capaces de hacer frente a las
-                            peticiones más complejas</p>
+                        <p>Aportamos a tu proyecto la última tecnología. Con nuestro laboratorio de desarrollo somos capaces de hacer frente a las
+                            peticiones más complejas.</p>
                         <a href="./pages/conocenos.html" class="btn btn-primary">
                             conócenos
                         </a>
@@ -143,7 +136,7 @@
                     </div>
                     <div>
                         <h2>Spatial Web</h2>
-                        <p>Etamos listos para el próximo salto evolutivo de la computación. Somos Spatial Web ready.</p>
+                        <p>Es muy importante estar al corriente de lo que vendrá. En woomkat estamos listos para el próximo salto evolutivo. Somos Spatial Web ready.</p>
                         <a href="./pages/conocenos.html" class="btn btn-primary">
                             conócenos
                         </a>
@@ -162,74 +155,111 @@
         </section>
     </main>
 
-    <footer>
-        <div class="container">
-            <footer class="row row-cols-5 py-5 my-5 border-top">
-                <div class="col">
-                    <a href="./index.html"><img src="./img/Logo_woomkat_transparente.png" alt="logo woomkat"
+
+        <!-- Footer -->
+    <div class="container my-5">
+        <footer class="text-center text-lg-start text-white" style="background-color: #000000">
+            <!-- Seccion redes sociales -->
+            <section class="d-flex justify-content-between p-4" style="background-color: #00b3ff">
+                <div class="me-5">
+                    <span>Conecta con nuestras redes sociales</span>
+                </div>
+                <div>
+                    <a href="" class="social text-white me-4">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="" class="social text-white me-4">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </section>
+
+            <!-- Seccion: Links  -->
+            <section class="">
+                <div class="container text-center text-md-start mt-5">
+                    <!-- Grid row -->
+                    <div class="row mt-3">
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                            <!-- Content -->
+                            <a href="./index.html"><img src="./img/Logo_woomkat_transparente.png" alt="logo woomkat"
                             class="logo-footer"></a>
-                    <p class="tagline">Somos exploradores. Formamos un equipo multidisciplinar, centrado
-                        en la creación de proyectos VR, AR y MR</p>
-                    <!-- Redes Sociales -->
-                    <div class="social">
-                        <i class="fa-brands fa-facebook"></i>
-                        <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-instagram"></i>
+                            <h6 class="text-uppercase fw-bold"></h6>
+
+                            <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                                style="width: 60px; background-color: #7c4dff; height: 2px" />
+                            <p class="tagline">
+                                Somos exploradores. Formamos un equipo multidisciplinar, centrado
+                                en la creación de proyectos VR, AR y MR
+                            </p>
+                            <p class="tagline">
+                                woomkat® 2022
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <!-- Links -->
+                            <h6 class="tagline text-uppercase fw-bold">Servicios</h6>
+                            <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                                style="width: 60px; background-color: #7c4dff; height: 2px" />
+                            <p>
+                                <a href="./pages/servicios.html" class="text-white text-decoration-none">Realidad Virtual</a>
+                            </p>
+                            <p>
+                                <a href="./pages/servicios.html" class="text-white text-decoration-none">Realidad Aumentada</a>
+                            </p>
+                            <p>
+                                <a href="./pages/servicios.html" class="text-white text-decoration-none">Realidad Mixta</a>
+                            </p>
+                            <p>
+                                <a href="./pages/servicios.html" class="text-white text-decoration-none">Web Inmersiva / 3D</a>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <!-- Links -->
+                            <h6 class="tagline text-uppercase fw-bold">Conócenos</h6>
+                            <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                                style="width: 60px; background-color: #7c4dff; height: 2px" />
+                            <p>
+                                <a href="./pages/contacto.html" class="text-white text-decoration-none menubajo">Contacto</a>
+                            </p>
+                            <p>
+                                <a href="./pages/FAQS.html" class="text-white text-decoration-none">FAQs</a>
+                            </p>
+                            <p>
+                                <a href="./pages/terminos.html" class="text-white text-decoration-none">Términos y condiciones</a>
+                            </p>
+                            <p>
+                                <a href="./pages/privacidad.html" class="text-white text-decoration-none">Política de privacidad</a>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                            <!-- Links -->
+                            <h6 class="tagline text-uppercase fw-bold">Contacto</h6>
+                            <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                                style="width: 60px; background-color: #7c4dff; height: 2px" />
+                            <p><i class="fas fa-home mr-3"></i> Gran Vía 1, Madrid</p>
+                            <p><i class="fas fa-envelope mr-3"></i> hola@woomkat.com</p>
+                            <p><i class="fas fa-phone mr-3"></i> + 34 234 567 88</p>
+                        </div>
+
                     </div>
 
-                    <div class="firma">
-                        <p>2022 woomkat®</p><br>
-                    </div>
                 </div>
-
-                <div class="col2">
-
-                </div>
-
-                <div class="col2">
-                    <h5></h5>
-                    <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"></a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"></a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"></a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"></a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"></a></li>
-                    </ul>
-                </div>
-
-                <div class="col2">
-                    <h5>Servicios</h5>
-                    <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="./pages/servicios.html"
-                                class="nav-link p-0 menubajo">Realidad Virtual</a></li>
-                        <li class="nav-item mb-2"><a href="./pages/servicios.html"
-                                class="nav-link p-0 menubajo">Realidad Aumentada</a></li>
-                        <li class="nav-item mb-2"><a href="./pages/servicios.html"
-                                class="nav-link p-0 menubajo">Realidad Mixta</a></li>
-                        <li class="nav-item mb-2"><a href="./pages/servicios.html" class="nav-link p-0 menubajo">Web
-                                inmersiva / 3D</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 menubajo"></a></li>
-                    </ul>
-                </div>
-
-                <div class="col2">
-                    <h5>Conócenos</h5>
-                    <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="./pages/contacto.html"
-                                class="nav-link p-0 menubajo">Contacto</a></li>
-                        <li class="nav-item mb-2"><a href="./FAQS.html" class="nav-link p-0 menubajo">FAQs</a></li>
-                        <li class="nav-item mb-2"><a href="./pages/terminos.html"
-                                class="nav-link p-0 menubajo">Términos y condiciones</a></li>
-                        <li class="nav-item mb-2"><a href="./pages/privacidad.html"
-                                class="nav-link p-0 menubajo">Política de privacidad</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"></a></li>
-                    </ul>
-                </div>
-            </footer>
-        </div>
+            </section>
 
     </footer>
 
+
+    </div>
 
 
 

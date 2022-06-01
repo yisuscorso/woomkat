@@ -13,6 +13,8 @@ body {
 
 /* BOTON PRIMARIO PERSONALIZADO */
 .btn-primary {
+  width: 220px;
+  height: 50px;
   border: none;
   outline: none;
   color: #fff;
@@ -22,10 +24,10 @@ body {
   z-index: 0;
   border-radius: 10px;
   font-size: 20px;
-  padding: 15px 15px 15px 15px;
 }
+
 .btn-primary:before {
-  content: ‘’;
+  content: "";
   background: linear-gradient(45deg, #3a8fff, #100089, #00c3ff, #4b23ff, #00ffd5, #002bff, #7a00ff, #0051ff, #8b31f1);
   position: absolute;
   top: -2px;
@@ -41,15 +43,22 @@ body {
   transition: opacity 0.3s ease-in-out;
   border-radius: 10px;
 }
+
+.btn-primary:active {
+  color: #000;
+}
+
 .btn-primary:active:after {
   background: transparent;
 }
+
 .btn-primary:hover:before {
   opacity: 1;
 }
+
 .btn-primary:after {
   z-index: -1;
-  content: ‘’;
+  content: "";
   position: absolute;
   width: 100%;
   height: 100%;
@@ -84,7 +93,13 @@ body {
 }
 /* ******************************************* Home */
 /* Navbar */
-.nav-pills .nav-link.active, .nav-pills .show.nav-link {
+.nav-pills .nav-link.active,
+.nav-pills .show.nav-link {
+  color: #00b3ff;
+  background-color: #000;
+}
+
+.nav-item {
   color: #00b3ff;
   background-color: #000;
 }
@@ -93,26 +108,25 @@ body {
   color: white;
 }
 
+.container-fluid {
+  padding-left: 4em;
+}
+
 /* SECCIÓN 1 - HERO */
 .masthead {
-  padding-top: 17rem;
-  padding-bottom: 12.5rem;
   background: url(./img/fondo.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+  height: 650px;
 }
-.masthead h1 {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 900;
-  font-size: 70px;
-  text-align: right;
+.masthead .display-5 {
+  padding-top: 90px;
 }
+
 .masthead p {
-  font-size: 22px;
-  text-align: right;
-  color: rgb(137, 137, 137);
+  color: rgb(152, 152, 152);
 }
 
 .btn-hero {
@@ -195,8 +209,9 @@ body {
 .containder-detalle h2 {
   color: white;
 }
-.containder-detalle h2 p {
-  color: rgb(255, 255, 255);
+
+.containder-detalle p {
+  color: rgb(152, 152, 152);
 }
 
 /* SECCIÓN 4 - NEWSLETTER */
@@ -564,33 +579,28 @@ body {
 }
 
 /*******************************************  FOOTER */
-.col img {
+.logo-footer {
   width: 70%;
 }
 
 .tagline {
   font-weight: 100;
   padding-bottom: 3px;
-  padding-top: 10px;
   color: rgb(159, 159, 159);
 }
 
 .social {
-  padding-bottom: 5px;
-  color: white;
-  padding-right: 30px;
   font-size: 20px;
 }
 
 .social i:hover {
-  color: #00b3ff;
+  color: #005eff;
 }
 
 .menubajo {
   color: rgb(152, 152, 152);
 }
 
-h5 {
-  color: white;
-  padding-bottom: 5px;
+.menubajo a:hover {
+  color: #005eff;
 }/*# sourceMappingURL=style.css.map */
