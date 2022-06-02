@@ -124,6 +124,9 @@ body {
 .masthead .display-5 {
   padding-top: 90px;
 }
+.masthead p {
+  text-shadow: 5px 5px 10px black;
+}
 
 .masthead p {
   color: rgb(152, 152, 152);
@@ -299,7 +302,7 @@ body {
 }
 .cabecera-proyectos h1 {
   font-weight: 900;
-  font-size: 70px;
+  font-size: 50px;
 }
 
 .texto_cabecera {
@@ -313,70 +316,67 @@ body {
   color: lightgrey;
 }
 
-.proyecto1 {
+.masterwork1 {
   background-image: url(./img/a_proyecto.jpg);
-  border-radius: 20px;
   background-size: cover;
   background-position: center;
 }
-.proyecto1 h2 {
+.masterwork1 h2 {
   padding-top: 20%;
   font-size: 40;
   font-weight: 900;
+  text-shadow: 5px 5px 10px black;
 }
 
-.proyecto2 {
+.masterwork2 {
   background-image: url(./img/b2.\ evento.png);
-  border-radius: 20px;
   background-size: cover;
   background-position: center;
 }
-.proyecto2 h2 {
+.masterwork2 h2 {
   padding-top: 20%;
   font-size: 40;
   font-weight: 900;
+  color: white;
+  text-shadow: 5px 5px 10px black;
 }
 
-.proyecto3 {
+.masterwork3 {
   background-image: url(./img/cb.proyecto.jpg);
-  border-radius: 20px;
-  height: 390px;
   background-size: cover;
   background-position: center;
-  padding-left: 2%;
 }
-.proyecto3 h2 {
+.masterwork3 h2 {
   padding-top: 10%;
   font-size: 40;
   font-weight: 900;
+  color: white;
+  text-shadow: 5px 5px 10px black;
 }
 
-.proyecto4 {
+.masterwork4 {
   background-image: url(./img//d.\ proyecto.jpg);
-  border-radius: 20px;
-  height: 390px;
   background-size: cover;
   background-position: center;
-  padding-left: 2%;
 }
-.proyecto4 h2 {
+.masterwork4 h2 {
   padding-top: 10%;
   font-size: 40;
   font-weight: 900;
+  text-shadow: 5px 5px 10px black;
 }
 
-.proyecto5 {
+.masterwork5 {
   background-image: url(./img/e.\ proyectp.webp);
-  border-radius: 20px;
-  height: 390px;
   background-size: cover;
   background-position: center;
-  padding-left: 2%;
 }
-.proyecto5 h2 {
+.masterwork5 h2 {
   padding-top: 10%;
   font-size: 40;
   font-weight: 900;
+  color: white;
+  text-shadow: 5px 5px 10px black;
 }
 
 /*******************************************  pagina conocenos */
