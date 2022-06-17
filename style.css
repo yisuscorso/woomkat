@@ -263,7 +263,7 @@ body {
 }
 .cabecera h1 {
   font-weight: 900;
-  font-size: 70px;
+  font-size: 50px;
 }
 
 .container_espacios h1 {
@@ -397,7 +397,7 @@ body {
 }
 .cabecera-conocenos h1 {
   font-weight: 900;
-  font-size: 70px;
+  font-size: 50px;
 }
 
 .texto-conocenos {
@@ -479,7 +479,7 @@ body {
 }
 .cabecera-contacto h1 {
   font-weight: 900;
-  font-size: 70px;
+  font-size: 50px;
 }
 
 .h6 {
@@ -516,7 +516,7 @@ body {
 }
 .cabecera-terminos h1 {
   font-weight: 900;
-  font-size: 70px;
+  font-size: 50px;
 }
 
 .texto-terminos {
@@ -559,7 +559,7 @@ body {
 }
 .cabecera-privacidad h1 {
   font-weight: 900;
-  font-size: 70px;
+  font-size: 50px;
 }
 
 .texto-terminos {
@@ -568,7 +568,7 @@ body {
   margin-top: 5%;
 }
 
-/*******************************************  Privacidad */
+/*******************************************  FAQs */
 .cabecera-faqs {
   background-image: url(./img/faqs.jpg);
   border-radius: 20px;
@@ -586,13 +586,12 @@ body {
 }
 .cabecera-faqs h1 {
   font-weight: 900;
-  font-size: 70px;
+  font-size: 50px;
 }
 .cabecera-faqs p {
   color: rgb(152, 152, 152);
 }
 
-/*******************************************  FAQs */
 .card {
   border: none;
 }
